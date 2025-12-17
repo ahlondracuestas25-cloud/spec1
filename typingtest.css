@@ -1,0 +1,72 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    background: color(srgb red green blue);
+    background-image: url("https://i.pinimg.com/1200x/c3/8d/14/c38d14c0074431b1a2f75521579b5496.jpg");
+    background-size: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: purple;
+    background-image: url("https://i.pinimg.com/1200x/fd/a9/cb/fda9cb7435800ce054beb2031ab3606e.jpg");
+    background-size: center;
+    padding: 100px;
+    width: 500px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+#timer {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#sentence {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #333;
+}
+
+#input {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    resize: none;
+}
+
+#startBtn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#results p {
+    margin: 5px 0;
+}
+
+
